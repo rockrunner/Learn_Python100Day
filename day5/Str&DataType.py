@@ -13,27 +13,27 @@ def main():
     # print (str1.startswith('L'))
     # print (str1)
     list1=[1,2,3,4,5,6,7,8,9]
-    print list1
+    print (list1)
     list2=['hellao']*5
-    print list2
+    print (list2)
     print (len(list1))
     print (list1[0])
     print (list1[4])
     print (list1[-3])
     list1[2]=12
-    print list1
+    print (list1)
     list1.append(39)
-    print list1
+    print (list1)
     list1.insert(1,400)
-    print list1
+    print (list1)
     list1+=[1000,2000]
-    print list1
-    print len(list1)
+    print (list1)
+    print (len(list1))
     list1.remove(39)
-    print list1
+    print (list1)
     if 9 in list1:
         list1.remove(9)
-        print list1
+        print (list1)
     del list1[0]
     print (list1)
     list1.clear()
@@ -46,7 +46,7 @@ def liebiao():
     furits+=['pipaya','pear','mango']
     for furit in furits:
         print (furit.title()),
-    print '\n'
+    print ('\n')
 
     furits2=furits[1:4]
     # print furits2
@@ -55,10 +55,10 @@ def liebiao():
     # print furits3
     furits4=furits[:]
     # print furits4
-    furits5=furits[-3:]
-    print furits5
+    furits5=furits[-3:-1]
+    print (furits5)
     furits6=furits[::-1]
-    print furits6
+    print (furits6)
 
 
 
